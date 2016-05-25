@@ -5,7 +5,7 @@ var bio = {
     "mobile":"570-xxx-xxxx",
     "email":"ec@gmail.com",
     "github":"Ecan22",
-    "location": "NYC",
+    "location": "New York, NY",
   },
   "welcomeMessage":"Hello and welcome",
   "skills":["energy","class","positivity"],
@@ -198,7 +198,7 @@ for (school in education.onlineCourses) {
 }  
 
 // Map
-$("mapDiv").append(googleMap);  
+$("#mapDiv").append(googleMap);  
 
 // Metrics
 $(document).click(function(loc) {
